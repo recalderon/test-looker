@@ -1,7 +1,11 @@
 const myViz = {
-  render: (data, config, context) => {
-    const container = context?.domContainer || document.body;
-    container.innerHTML = '<h3>Hello Looker Studio 👋</h3>';
+  render: (data, config) => {
+    const container = document.createElement('div');
+    container.innerHTML = `
+      <h2>Hello Looker 👋</h2>
+      <pre style="font-size: 12px;">${JSON.stringify(data, null, 2)}</pre>
+    `;
+    document.body.appendChild(container);
   }
 };
 
