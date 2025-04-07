@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "id": "data",
+      "label": "Data",
+      "elements": [
+        {
+          "id": "dimension",
+          "label": "Dimension",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 20
+          }
+        },
+        {
+          "id": "metric",
+          "label": "Metric",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "style",
+      "label": "Style",
+      "elements": [
+        {
+          "id": "showSearch",
+          "label": "Show Search Box",
+          "type": "CHECKBOX",
+          "defaultValue": true
+        },
+        {
+          "id": "pageLength",
+          "label": "Rows Per Page",
+          "type": "NUMBER",
+          "defaultValue": 10
+        }
+      ]
+    }
+  ]
+}

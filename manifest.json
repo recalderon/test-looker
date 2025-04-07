@@ -1,19 +1,19 @@
 {
   "name": "DataTables Table",
-  "description": "An interactive table powered by DataTables.js",
   "organization": "recalderon",
-  "logoUrl": "",
-  "supportUrl": "",
-  "authType": "NONE",
-  "theme": {
-    "default": "light"
-  },
+  "description": "An interactive table powered by DataTables.js",
+  "logoUrl": "https://raw.githubusercontent.com/recalderon/test-looker/main/logo.png",
+  "supportUrl": "https://github.com/recalderon/test-looker/issues",
+  "packageUrl": "https://raw.githubusercontent.com/recalderon/test-looker/main/package.js",
   "components": [
     {
-      "id": "datatable",
-      "type": "VISUALIZATION",
-      "file": "index.html"
+      "name": "DataTable",
+      "description": "Interactive DataTables visualization",
+      "iconUrl": "https://raw.githubusercontent.com/recalderon/test-looker/main/icon.png",
+      "resource": {
+        "js": "https://raw.githubusercontent.com/recalderon/test-looker/main/index.js",
+        "config": "https://raw.githubusercontent.com/recalderon/test-looker/main/index.json"
+      }
     }
-  ],
-  "devMode": true
+  ]
 }
