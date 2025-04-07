@@ -1,7 +1,7 @@
 {
-  "name": "My Looker Viz Package",
+  "name": "Test Viz Package",
   "organization": "Recalderon Labs",
-  "description": "Custom charts for Looker Studio",
+  "description": "Basic test Looker Studio visualization package.",
   "logoUrl": "https://recalderon.github.io/test-looker/logo.png",
   "organizationUrl": "https://github.com/recalderon",
   "supportUrl": "https://github.com/recalderon/test-looker/issues",
@@ -12,7 +12,7 @@
     {
       "id": "myViz",
       "name": "My Viz",
-      "description": "Test chart for Looker",
+      "description": "A very basic custom visualization.",
       "iconUrl": "https://recalderon.github.io/test-looker/icon.png",
       "resource": {
         "js": "https://recalderon.github.io/test-looker/myViz.js",

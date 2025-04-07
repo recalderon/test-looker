@@ -1,0 +1,15 @@
+body {
+  background-color: #f8f9fa;
+  font-family: sans-serif;
+}
+
+h2 {
+  color: #4a90e2;
+}
+
+pre {
+  font-size: 12px;
+  background: #eaeaea;
+  padding: 1em;
+  overflow-x: auto;
+}
