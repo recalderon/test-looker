@@ -1,24 +1,19 @@
 {
-  "name": "Test Viz Package",
-  "organization": "Recalderon Labs",
-  "description": "Basic test Looker Studio visualization package.",
-  "logoUrl": "https://recalderon.github.io/test-looker/logo.png",
-  "organizationUrl": "https://github.com/recalderon",
-  "supportUrl": "https://github.com/recalderon/test-looker/issues",
-  "privacyPolicyUrl": "https://github.com/recalderon/privacy",
-  "termsOfServiceUrl": "https://github.com/recalderon/terms",
-  "packageUrl": "https://recalderon.github.io/test-looker/",
+  "name": "DataTables Table",
+  "description": "An interactive table powered by DataTables.js",
+  "organization": "recalderon",
+  "logoUrl": "",
+  "supportUrl": "",
+  "authType": "NONE",
+  "theme": {
+    "default": "light"
+  },
   "components": [
     {
-      "id": "myViz",
-      "name": "My Viz",
-      "description": "A very basic custom visualization.",
-      "iconUrl": "https://recalderon.github.io/test-looker/icon.png",
-      "resource": {
-        "js": "https://recalderon.github.io/test-looker/myViz.js",
-        "css": "https://recalderon.github.io/test-looker/myViz.css",
-        "config": "https://recalderon.github.io/test-looker/myViz-config.json"
-      }
+      "id": "datatable",
+      "type": "VISUALIZATION",
+      "file": "index.html"
     }
-  ]
+  ],
+  "devMode": true
 }
