@@ -1,7 +1,7 @@
 const myViz = {
-  render: (data, config) => {
-    const container = document.getElementById('chart') || document.body;
-    container.innerHTML = '<h3>Hello from Looker Studio!</h3>';
+  render: (data, config, context) => {
+    const container = context?.domContainer || document.body;
+    container.innerHTML = '<h3>Hello Looker Studio 👋</h3>';
   }
 };
 
