@@ -1,0 +1,26 @@
+{
+  "name": "My Custom Visualization",
+  "description": "A simple community visualization example.",
+  "author": "Your Name",
+  "dataStudio": {
+    "visualization": "myViz",
+    "style": "style",
+    "logoUrl": "https://yourdomain.com/logo.png", 
+    "helpUrl": "https://yourdomain.com/help",
+    "buildPath": "build/"
+  },
+  "components": [
+    {
+      "id": "myViz",
+      "file": "myViz.js"
+    },
+    {
+      "id": "style",
+      "file": "style.css"
+    }
+  ],
+  "config": {
+    "data": true,
+    "style": true
+  }
+}
