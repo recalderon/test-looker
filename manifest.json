@@ -1,21 +1,25 @@
 {
-  "name": "DataTables Table",
-  "organization": "recalderon",
-  "description": "An interactive table powered by DataTables.js",
-  "logoUrl": "https://raw.githubusercontent.com/recalderon/test-looker/main/logo.png",
-  "supportUrl": "https://github.com/recalderon/test-looker/issues",
-  "packageUrl": "https://raw.githubusercontent.com/recalderon/test-looker/main/package.js",
-  "components": [
-    {
-      "id": "datatable",
-      "name": "DataTable",
-      "description": "Interactive DataTables visualization",
-      "iconUrl": "https://raw.githubusercontent.com/recalderon/test-looker/main/icon.png",
-      "resource": {
-        "js": "https://raw.githubusercontent.com/recalderon/test-looker/main/index.js",
-        "config": "https://raw.githubusercontent.com/recalderon/test-looker/main/index.json"
-      },
-      "useLegacyApi": false
-    }
-  ]
+    "name": "Community Visualization",
+    "logoUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/table-chart.png",
+    "organization": "Looker Studio Codelab",
+    "organizationUrl": "https://raw.githubusercontent.com",
+    "termsOfServiceUrl": "https://raw.githubusercontent.com",
+    "supportUrl": "https://raw.githubusercontent.com",
+    "packageUrl": "https://raw.githubusercontent.com",
+    "privacyPolicyUrl": "https://raw.githubusercontent.com",
+    "description": "Community Visualization Codelab",
+    "devMode": true,
+    "components": [
+        {
+            "id": "tableChart",
+            "name": "Table",
+            "iconUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/table-chart.png",
+            "description": "A simple table chart.",
+            "resource": {
+                "js": "gs://recalderon-looker-viz/viz-codelab.js",
+                "config": "gs://recalderon-looker-viz/viz-codelab.json",
+                "css": "gs://recalderon-looker-viz/viz-codelab.css"
+            }
+        }
+    ]
 }
