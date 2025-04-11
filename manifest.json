@@ -16,9 +16,9 @@
             "iconUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/table-chart.png",
             "description": "A simple table chart.",
             "resource": {
-                "js": "gs://recalderon-looker-viz/viz-codelab.js",
-                "config": "gs://recalderon-looker-viz/viz-codelab.json",
-                "css": "gs://recalderon-looker-viz/viz-codelab.css"
+                "js": "https://recalderon.github.io/test-looker/viz-codelab.js",
+                "config": "https://recalderon.github.io/test-looker/viz-codelab.json",
+                "css": "https://recalderon.github.io/test-looker/viz-codelab.css"
             }
         }
     ]
