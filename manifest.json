@@ -7,13 +7,15 @@
   "packageUrl": "https://raw.githubusercontent.com/recalderon/test-looker/main/package.js",
   "components": [
     {
+      "id": "datatable",
       "name": "DataTable",
       "description": "Interactive DataTables visualization",
       "iconUrl": "https://raw.githubusercontent.com/recalderon/test-looker/main/icon.png",
       "resource": {
         "js": "https://raw.githubusercontent.com/recalderon/test-looker/main/index.js",
         "config": "https://raw.githubusercontent.com/recalderon/test-looker/main/index.json"
-      }
+      },
+      "useLegacyApi": false
     }
   ]
 }
